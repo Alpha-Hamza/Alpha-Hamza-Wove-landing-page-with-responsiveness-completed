@@ -1,6 +1,6 @@
 export default function FifthSection() {
   return (
-    <div className="relative mx-auto container sm:max-w-full max-w-[90%]">
+    <div className="relative mx-auto container xl:max-w-[100%] lg:max-w-[80%] sm:max-w-full max-w-[90%]">
       <div className="text-center">
         <h1 className="sm:text-[36px] text-[24px] text-[#ffffff] tracking-[-0.01em] font-semibold">
           A Single Source of Truth
@@ -29,12 +29,12 @@ export default function FifthSection() {
         <img
           src="./images/left.png"
           alt=" "
-          className="absolute 2xl:left-[24px] xl:left-[5%]  left-[0px] md:left-[0%] left-[-2%]   sm:my-[152px] my-[70px] lg:max-w-[100%]  max-w-[15%] "
+          className="absolute 2xl:left-[24px] xl:left-[5%] lg:left-[-10%]  left-[0px] md:left-[0%] left-[-2%]   sm:my-[152px] my-[70px] lg:max-w-[100%]  max-w-[15%] "
         />
         <img
           src="./images/right.png"
           alt=" "
-          className="absolute 2xl:right-[24px] xl:right-[5%] md:right-[0%] right-[-2%]  right-[0px]  sm:my-[152px] my-[70px] lg:max-w-[100%] max-w-[15%] "
+          className="absolute 2xl:right-[24px] xl:right-[5%] md:right-[0%] lg:right-[-10%] right-[-2%]  right-[0px]  sm:my-[152px] my-[70px] lg:max-w-[100%] max-w-[15%] "
         />
       </div>
     </div>

@@ -1,7 +1,7 @@
 export default function ThirdSection() {
   return (
-    <div className="mx-auto container">
-      <div className=" relative  sm:my-[100px] my-[74px] ">
+    <div className="mx-auto container lg:max-w-[80%]">
+      <div className=" relative  sm:my-[100px] my-[74px]  ">
         <h1 className="md:text-[36px] sm:text-[30px] text-[20px] text-[#ffffff] text-center tracking-[-0.01em] font-semibold">
           Built for the New Normal
         </h1>
