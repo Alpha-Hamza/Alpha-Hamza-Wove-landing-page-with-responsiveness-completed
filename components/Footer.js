@@ -2,11 +2,11 @@ import Logo from "./Logo";
 import Social from "./Social";
 export default function Footer() {
   return (
-    <div className="relative mx-auto container lg:mt-[129px] md:mt-[100px] sm:mt-[100px] mt-[150px]  max-w-[80%] ">
+    <div className="relative mx-auto container lg:mt-[129px] md:mt-[100px] sm:mt-[80px] mt-[120px]  max-w-[80%] ">
       <div className="relative  flex justify-center">
         <img src="./images/Line1.png" alt=" " />
       </div>
-      <div className=" relative flex left-[0px] 2xl:left-[135px]  my-[32px]">
+      <div className=" relative flex left-[0px] 2xl:left-[0px]  my-[32px]">
         <Logo />
         <Social />
       </div>

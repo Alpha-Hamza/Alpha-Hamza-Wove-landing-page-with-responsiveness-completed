@@ -1,8 +1,8 @@
 export default function SecondIcons() {
   return (
-    <div className="relative flex justify-center   sm:top-5 top-4 ">
+    <div className="relative flex justify-center   sm:top-5 top-7 ">
       <svg
-        className=" md:max-w-[70%] w-[50%] "
+        className="sm:w-[50%]   w-[60%] "
         viewBox="0 0 600 65"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

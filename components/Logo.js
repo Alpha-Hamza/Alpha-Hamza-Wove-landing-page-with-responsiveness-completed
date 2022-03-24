@@ -2,7 +2,7 @@ export default function Logo() {
   return (
     <>
       <svg
-        className="xl:max-w-[100%] sm:max-w-[20%] max-w-[40%] "
+        className=" xl:max-w-[100%] lg:max-w-[20%] md:max-w-[25%] sm:max-w-[30%] max-w-[40%] "
         height="40"
         viewBox="0 0 202 40"
         fill="none"

@@ -5,7 +5,7 @@ export default function FlowCharts() {
         <h1 className="  sm:text-[36px] text-[24px] text-center text-[#ffffff] tracking-[-0.01em] font-semibold ">
           Before Wove
         </h1>
-        <p className="  xl:text-[18px]  sm:text-[16px] text-[14px] text-center text-[#A3A3A3] sm:my-[16px] my-[10px]   font-normal ">
+        <p className="  xl:text-[18px]  sm:text-[16px] text-[14px] text-center text-[#A3A3A3] md:my-[16px] sm:my-[5px]     font-normal ">
           Silos that make it a nightmare to keep <br /> track, making you switch
           between tools <br /> back and forth
         </p>
@@ -21,7 +21,7 @@ export default function FlowCharts() {
         <h1 className="  sm:text-[36px] text-[24px] text-center text-[#ffffff] tracking-[-0.01em] font-semibold ">
           After Wove
         </h1>
-        <p className=" xl:text-[18px] sm:text-[16px] text-[14px] text-center text-[#A3A3A3] sm:my-[16px] my-[10px]   font-normal ">
+        <p className=" xl:text-[18px] sm:text-[16px] text-[14px] text-center text-[#A3A3A3] md:my-[16px] sm:my-[5px]    font-normal ">
           Fluid collaboration that allows everything <br /> to be tracked
           allowing you to focus on <br /> the most important of aspects
         </p>

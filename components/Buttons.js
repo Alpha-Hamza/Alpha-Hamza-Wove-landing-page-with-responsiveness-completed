@@ -1,6 +1,6 @@
 export default function Buttons() {
   return (
-    <div className="2xl:space-x-[80px]  md:space-x-[36px] sm:space-x-[20px] space-x-[10px] lg:space-x-[72px] text-[12px] md:text-[16px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] flex justify-center ">
+    <div className=" relative 2xl:space-x-[80px]  md:space-x-[40px] sm:space-x-[25px] space-x-[7px] lg:space-x-[72px] text-[12px] sm:text-[18px] lg:text-[22px] xl:text-[24px]  flex justify-center ">
       <button className="cursor-pointer   leading-[20px] font-medium text-[#ffffff]">
         Workshops
       </button>

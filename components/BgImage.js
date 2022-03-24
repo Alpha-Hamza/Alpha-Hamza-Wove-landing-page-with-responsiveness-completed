@@ -1,6 +1,6 @@
 export default function BgImage() {
   return (
-    <div className="relative">
+    <div className="relative top-0  ">
       <svg
         className="md:h-[100%]  md:w-[100%]   "
         viewBox="0 0 1440 798"
