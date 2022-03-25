@@ -31,7 +31,7 @@ export default function SixthSection() {
               className="  relative w-full  xl:h-[60px] lg:h-[55px] md:h-[48px]  h-[40px] lg:text-[16px] md:text-[14px] sm:text-[12px] text-[14px]   bg-[#262626] rounded-[56px] placeholder:px-[20px]"
             />
 
-            <button className="absolute right-[6px] bg-[#0585F2] w-[45%] sm:w-[40%] xl:h-[48px] lg:h-[43px] md:h-[36px] h-[32px]  rounded-[56px] text-center  md:top-[6px] top-[4px]  text-[#ffffff] xl:text-[16px] md:text-[14px] text-[12px] font-medium tracking-tight    ">
+            <button className="absolute hover:animate-bounce hover:bg-[#00B37D] right-[6px] bg-[#0585F2] w-[45%] sm:w-[40%] xl:h-[48px] lg:h-[43px] md:h-[36px] h-[32px]  rounded-[56px] text-center  md:top-[6px] top-[4px]  text-[#ffffff] xl:text-[16px] md:text-[14px] text-[12px] font-medium tracking-tight    ">
               Request Early Access
             </button>
           </div>

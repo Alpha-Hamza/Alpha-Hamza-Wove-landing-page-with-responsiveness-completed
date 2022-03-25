@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 export default function LandingPage() {
   return (
-    <div className="mx-auto container ">
+    <div >
       <TopSection />
       <SecondSection />
       <ThirdSection />

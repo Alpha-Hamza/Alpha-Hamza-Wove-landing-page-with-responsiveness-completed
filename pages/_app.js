@@ -4,6 +4,7 @@ import LandingPage from '../LandingPage'
 import '../styles/globals.css'
 
 
+
 function MyApp({ Component, pageProps }) {
   return (
   <>

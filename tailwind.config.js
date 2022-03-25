@@ -1,13 +1,19 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        fancy: ["Dancing Script"],
+        avenir:["Lobster"],
+        
+      },
+    },
     screens: {
-
-      
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 

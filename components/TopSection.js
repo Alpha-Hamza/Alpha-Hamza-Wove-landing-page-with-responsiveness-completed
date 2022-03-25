@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+
 export default function TopSection() {
   return (
     <div className="mx-auto container  ">
@@ -18,7 +19,7 @@ export default function TopSection() {
             The Collaboration <br />
             Meta-Layer for <span className="text-[#7FE3EC]">Work</span>
           </h1>
-          <p className=" h-12  sm:my-[32px] my-[16px] not-italic text-lg  text-center text-[#D4D4D4] text-[16px] lg:text-[18px] ">
+          <p className=" h-12 font-lobster sm:my-[32px] my-[16px] not-italic text-lg  text-center text-[#D4D4D4] text-[16px] lg:text-[18px] ">
             Stop falling through the cracks. The tools you already know and
             love, all in <br className="md:block hidden" />
             one place.
@@ -31,7 +32,7 @@ export default function TopSection() {
           \
         </div>
       </div>
-      <div className="relative flex justify-center md:mt-[48px] sm:mt-[0px] mt-[30px]   ">
+      <div className="relative font-sans flex justify-center md:mt-[48px] sm:mt-[0px] mt-[30px]   ">
         <div className=" relative bg-[#262626] 2xl:w-[30%] xl:w-[35%] lg:w-[40%] md:w-[50%] sm:w-[60%] w-[75%] sm:h-[60px] h-[48px] rounded-[56px] ">
           <input
             type={"text"}
@@ -39,7 +40,7 @@ export default function TopSection() {
             className="  relative  sm:h-[60px] h-[48px] w-full bg-[#262626] rounded-[56px] placeholder:px-[20px]"
           />
 
-          <button className="  absolute   text-[#ffffff] font-medium tracking-tight xl:text-[16px] md:text-[14px]  text-[12px]  bg-[#0585F2] w-[40%]  sm:h-[48px] h-[36px]  rounded-[56px]    top-[6px] right-[6px]       ">
+          <button className="  absolute hover:animate-bounce hover:bg-[#00B37D] text-[#ffffff] font-medium tracking-tight xl:text-[16px] md:text-[14px]  text-[12px]  bg-[#0585F2] w-[40%]  sm:h-[48px] h-[36px]  rounded-[56px]    top-[6px] right-[6px]       ">
             Request Early Access
           </button>
         </div>

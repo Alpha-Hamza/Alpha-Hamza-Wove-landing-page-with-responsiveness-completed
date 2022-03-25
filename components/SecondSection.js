@@ -4,10 +4,10 @@ import SecondIcons from "./SecondIcons";
 
 export default function SecondSection() {
   return (
-    <div className="mx-auto container sm:max-w-full max-w-[90%]">
-      <div className="   lg:mt-[100px] md:mt-[80px] sm:mt-[100px] mt-[70px]   ">
+    <div className=" max-w-full ">
+      <div className="  mx-auto container sm:max-w-full max-w-[80%] lg:mt-[100px] md:mt-[80px] sm:mt-[100px] mt-[70px]   ">
         <Buttons />
-        <img src="./images/Line.png" alt=" " className="  mt-[20px]" />
+        <img src="./images/Line.png" alt=" " className=" ml-auto mr-auto mt-[20px]" />
       </div>
       <div className="relative sm:top-0 top-5 ">
         <BgImage />
@@ -18,16 +18,16 @@ export default function SecondSection() {
           </p>
         </div>
 
-        <div className=" absolute left-0 right-0 ml-auto mr-auto w-[80%] bottom-[0px]   ">
+        <div className=" mx-auto container relative flex justify-center   bottom-[0px]   ">
           <img
             src="./images/Frame.png"
             alt=" "
-            className="absolute bottom-0   "
+            className="absolute bottom-0 2xl:w-full max-w-[80%]  "
           />
         </div>
       </div>
 
-      <SecondIcons />
+      <SecondIcons/>
     </div>
   );
 }

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONT 
+ Jarkata Display  */
+h1,
+h3,
+h4,
+h5,
+h6,
+.Montserrat {
+  font-family: "Montserrat";
+}
+
+
+
+
+
+/* / Jarkata Sans / */
+@font-face {
+  font-family: "Montserrat";
+  src: url(../font/Montserrat-Bold-700.ttf);
+}
+
+/* p,
+.jarkataSans {
+  font-family: "Plus Jakarta sans";
+}
+.SansmediumItalic {
+  font-family: "Plus Jakarata sansmedium-italic";
+}
+.Sansmedium {
+  font-family: "Plus Jakarata sansmedium";
+} */
+/* / FONT / */
+
+/* / style for parrallex image */
+.parallax-inner {
+  transition: transform 5000ms ease-in-out;
+}

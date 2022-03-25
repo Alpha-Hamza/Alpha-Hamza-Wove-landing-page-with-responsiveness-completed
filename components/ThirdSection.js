@@ -2,7 +2,7 @@ export default function ThirdSection() {
   return (
     <div className="mx-auto container lg:max-w-[80%]">
       <div className=" relative  sm:my-[100px] my-[74px]  ">
-        <h1 className="md:text-[36px] sm:text-[30px] text-[20px] text-[#ffffff] text-center tracking-[-0.01em] font-semibold">
+        <h1 className="md:text-[36px]  font-sans sm:text-[30px] text-[20px] text-[#ffffff] text-center tracking-[-0.01em] font-semibold">
           Built for the New Normal
         </h1>
 
@@ -22,7 +22,7 @@ export default function ThirdSection() {
               alt=" "
               className=" block ml-auto mr-auto   "
             />
-            <h3 className="xl:text-[24px]  sm:text-[20px] text-[16px] font-medium tracking-[-0.01em] leading-5 text-[#ffffff] lg:my-[25px] md:mt-[20px] mt-[16px]">
+            <h3 className="xl:text-[24px] font-sans  sm:text-[20px] text-[16px] font-medium tracking-[-0.01em] leading-5 text-[#ffffff] lg:my-[25px] md:mt-[20px] mt-[16px]">
               Real Time Collaboration
             </h3>
             <p className=" sm:text-[16px]   text-[14px] font-normal leading-5 text-[#A3A3A3] sm:mt-[8px]">
@@ -37,7 +37,7 @@ export default function ThirdSection() {
               alt=" "
               className="block ml-auto mr-auto "
             />
-            <h3 className="xl:text-[24px] sm:text-[20px] text-[16px] font-medium tracking-[-0.01em] leading-5 text-[#ffffff] mt-[16px] lg:my-[25px] md:mt-[20px]">
+            <h3 className="xl:text-[24px] font-sans sm:text-[20px] text-[16px] font-medium tracking-[-0.01em] leading-5 text-[#ffffff] mt-[16px] lg:my-[25px] md:mt-[20px]">
               Async Organization
             </h3>
             <p className="sm:text-[16px] 2xl:mx-[60px] xl:mx-[70px] lg:mx-[30px] text-[14px] font-normal leading-5 text-[#A3A3A3] sm:mt-[8px]">
@@ -54,7 +54,7 @@ export default function ThirdSection() {
               alt=" "
               className="block ml-auto mr-auto "
             />
-            <h3 className="xl:text-[24px] sm:text-[20px] text-[16px] font-medium tracking-[-0.01em] leading-5 text-[#ffffff] mt-[16px] lg:my-[25px] md:mt-[20px]">
+            <h3 className="xl:text-[24px] font-sans sm:text-[20px] text-[16px] font-medium tracking-[-0.01em] leading-5 text-[#ffffff] mt-[16px] lg:my-[25px] md:mt-[20px]">
               Work Persistence
             </h3>
             <p className="sm:text-[16px]  xl:mx-[70px] lg:mx-[30px] text-[14px] font-normal leading-5 text-[#A3A3A3] sm:mt-[8px]">
